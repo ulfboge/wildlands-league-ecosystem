@@ -45,7 +45,8 @@ pip install -r requirements.txt
 - **Infrastructure Analysis**: Assessment of existing and planned infrastructure
 
 ## 📝 License
-[License details to be determined]
+This project is licensed under the [MIT License](LICENSE).
+
 
 ## 👥 Contributors
 - Wildlands League
