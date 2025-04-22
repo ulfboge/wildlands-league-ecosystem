@@ -1,0 +1,5 @@
+system:index,area_ha,forest_type,percent_total,.geo
+0,635643.0,Stable Forest,83.5,"{""type"":""MultiPoint"",""coordinates"":[]}"
+1,2739.0,Forest Loss,0.4,"{""type"":""MultiPoint"",""coordinates"":[]}"
+2,2771.0,Forest Gain,0.4,"{""type"":""MultiPoint"",""coordinates"":[]}"
+3,18651.0,Disturbed Forest,2.4,"{""type"":""MultiPoint"",""coordinates"":[]}"

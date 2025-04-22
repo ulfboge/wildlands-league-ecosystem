@@ -1,0 +1,174 @@
+/* Print-specific styles */
+@media print {
+    div[style*="page-break-after: always;"] {
+        page-break-after: always;
+    }
+}
+
+/* General document styles */
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title page styles */
+h1.title-page {
+    margin-top: 40%;
+    text-align: center;
+    font-size: 24pt;
+}
+
+/* Table of Contents styles */
+.toc-container {
+    page-break-before: always;
+    page-break-after: always;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.toc-section {
+    page-break-inside: avoid;
+    margin: 20px 0;
+}
+
+.toc-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.toc-section ul, 
+.toc-section ol {
+    page-break-inside: avoid;
+}
+
+.toc-section li {
+    margin-bottom: 8px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 24pt;
+    color: #333;
+    margin-top: 20pt;
+    margin-bottom: 10pt;
+}
+
+h2 {
+    font-size: 18pt;
+    color: #444;
+    margin-top: 16pt;
+    margin-bottom: 8pt;
+}
+
+h3 {
+    font-size: 14pt;
+    color: #555;
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    page-break-inside: avoid;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+/* List styles */
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    page-break-inside: avoid;
+}
+
+/* Page break utilities */
+.page-break {
+    page-break-after: always;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Block quote styles */
+blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 4px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Code block styles */
+pre, code {
+    font-family: "Consolas", monospace;
+    background-color: #f5f5f5;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* Figure captions */
+figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Document info section */
+.document-info {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+}
+
+/* Print optimization */
+@media print {
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    pre, code {
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+    
+    @page {
+        margin: 2.5cm;
+    }
+}
+
+/* Force page breaks */
+div[style*="page-break-after: always;"] {
+    page-break-after: always !important;
+    break-after: always !important;
+}

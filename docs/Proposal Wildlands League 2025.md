@@ -1,6 +1,4 @@
-# 
-
-# **Proposal: Assessing the Potential for Ecosystem Services & Carbon Product Development**
+# Proposal: Assessing the Potential for Ecosystem Services & Carbon Product Development
 
 Between
 
@@ -8,9 +6,11 @@ Between
 Suite 371, 401 Richmond St. W.   
 Toronto, ON M5V 3A8  
 Canada  
-CRA Non Profit Number.: 118782317RR0001
+CRA Non Profit Number: 118782317RR0001
 
-Janet Sumner   
+**Primary Contact:**  
+Janet Sumner  
+Executive Director  
 janet@wildlandsleague.org
 
 and
@@ -20,11 +20,12 @@ Moerser Straße 171
 47803 Krefeld  
 Germany
 
-Contact OpenForests  
-Mange Kumarasamy  
-mange.kumarasamy@openforests.com
+**Project Team:**
+- **Project Director:** Alexander Watson
+- **Project Manager:** Mange Kumarasamy
+- **GIS Specialist:** Johan Karlsson
 
-**Version 1.0: 05.03.2025**
+**Version 1.1: 22.04.2025**
 
 | OpenForests UG (haftungsbeschränkt) Moerser Str. 171 47808 Krefeld Germany | www.openforests.com contact@openforests.com \+49 (0) 2151 987 9656 | Amtsgericht Krefeld Registration number: HRB 15728 VAT No..: DE279880113 |
 | :---- | :---- | :---- |
@@ -37,11 +38,11 @@ mange.kumarasamy@openforests.com
 
 [Service Packages, Deliverables & Pricing	3](#service-packages,-deliverables-&-pricing)
 
-[1\. Pre-Assessment Package \- $5,000 CAD	3](#1.-pre-assessment-package---$5,000-cad)
+[1\. Pre-Assessment Package \- $5,000 CAD (Completed)	3](#1.-pre-assessment-package---$5,000-cad-completed)
 
 [Service: Screening Historical Land-use	3](#service:-screening-historical-land-use)
 
-[2\. Carbon Forest Maps Package \- $7,000 CAD	3](#2.-carbon-forest-maps-package---$7,000-cad)
+[2\. Carbon Forest Maps Package \- $7,000 CAD (In Progress)	3](#2.-carbon-forest-maps-package---$7,000-cad-in-progress)
 
 [Service: Detailed Historic Maps	3](#service:-detailed-historic-maps)
 
@@ -97,39 +98,51 @@ The results of this assessment will serve as the basis for future project planni
 
 ## **Service Packages, Deliverables & Pricing** {#service-packages,-deliverables-&-pricing}
 
-### **1\. Pre-Assessment Package \- $5,000 CAD** {#1.-pre-assessment-package---$5,000-cad}
+### **1\. Pre-Assessment Package \- $5,000 CAD (Completed)** {#1.-pre-assessment-package---$5,000-cad-completed}
 
 **Objective:** Provide an initial screening of land use changes and deforestation history to determine the feasibility of carbon credit development.
 
 #### **Service: Screening Historical Land-use** {#service:-screening-historical-land-use}
 
-* Conduct a high-level historical deforestation analysis for the area of interest  
-* Generate maps showing forest loss trends over time and space  
-* Determine deforestation timing to assess potential carbon sequestration feasibility
+* Conducted historical deforestation analysis (2000-2023) using:
+  - Hansen Global Forest Change v1.11
+  - GLAD Forest Type Classification
+* Generated maps showing forest loss trends
+* Applied Canadian forest definition:
+  - Minimum canopy cover: 25%
+  - Minimum area: 1 hectare
+  - Minimum height potential: 5 meters
 
-**Deliverables:**
-
-* PDF Maps  
-* Geofiles  
-* Statistical Analysis (Excel)
+**Deliverables Completed:**
+* PDF Maps of forest cover and loss
+* Geofiles of forest dynamics
+* Statistical Analysis (Excel) of deforestation trends
+* Progress Report documenting findings
 
 ---
 
-### **2\. Carbon Forest Maps Package \- $7,000 CAD** {#2.-carbon-forest-maps-package---$7,000-cad}
+### **2\. Carbon Forest Maps Package \- $7,000 CAD (In Progress)** {#2.-carbon-forest-maps-package---$7,000-cad-in-progress}
 
 **Objective:** Conduct an in-depth spatial analysis to quantify land use, carbon stocking potential, and reference area definition for certification.
 
 #### **Service: Detailed Historic Maps** {#service:-detailed-historic-maps}
 
-* Analyze historical deforestation from **2001 to present** using satellite imagery sources:  
-  * **Landsat (30m resolution)**  
-  * **Sentinel-1 & Sentinel-2 (10m resolution)**  
-  * **Planet (5m resolution)**
+* Analyzing historical deforestation using:
+  - Hansen Global Forest Change v1.11 (2000-2023)
+  - GLAD Forest Type Classification (2000-2020)
+  - Landsat (30m resolution)
+  - Sentinel-1 & Sentinel-2 (10m resolution)
+  - Planet (5m resolution)
 
 #### **Service: Land-cover Analysis Maps** {#service:-land-cover-analysis-maps}
 
-* Classify and quantify current land cover into categories such as:  
-  * **Bareland, Cropland, Water, Degraded Forest, Forest Plantation**
+* Classifying and quantifying current land cover:
+  - Stable Forest
+  - Disturbed Forest
+  - Forest Loss
+  - Forest Gain
+  - Non-Forest
+  - Water Bodies
 
 #### **Service: Precipitation and Temperature Mapping** {#service:-precipitation-and-temperature-mapping}
 
@@ -186,7 +199,7 @@ The geospatial data generated from this assessment will serve as a **critical in
 
 By establishing a strong data foundation, we enable informed decision-making and set the stage for a **sustainable alternative to conventional logging**, unlocking long-term environmental and economic benefits.
 
-For further details or consultation, please reach out. Let’s collaborate to create meaningful, nature-based solutions.
+For further details or consultation, please reach out. Let's collaborate to create meaningful, nature-based solutions.
 
 # Amendment scope of work {#amendment-scope-of-work}
 
@@ -207,11 +220,11 @@ OF is not liable for system-related failures, interruptions, problems with the t
 
 # **General Terms of Service** {#general-terms-of-service}
 
-Access the General Terms of Service of the OpenForests’ explorer.land platform via the following link: [https://home.explorer.land/general-terms-of-service/](https://home.explorer.land/general-terms-of-service/)
+Access the General Terms of Service of the OpenForests' explorer.land platform via the following link: [https://home.explorer.land/general-terms-of-service/](https://home.explorer.land/general-terms-of-service/)
 
 # **Data Privacy** {#data-privacy}
 
-Access the Data Privacy of the OpenForests’ explorer.land platform via the following link: [https://openforests.com/data-privacy/](https://openforests.com/data-privacy/)				
+Access the Data Privacy of the OpenForests' explorer.land platform via the following link: [https://openforests.com/data-privacy/](https://openforests.com/data-privacy/)				
 
 # **Presentation of work in OpenForests Portfolio**		 {#presentation-of-work-in-openforests-portfolio}
 
