@@ -114,16 +114,60 @@ Germany
 
 ## 1. Executive Summary
 ### Project Overview
-[In Progress]
+The Wildlands League Ecosystem Services Project focuses on Algonquin Provincial Park, a Canadian icon that contains the highest concentration of self-sustaining trout lakes in the world and anchors the southern range of many of Ontario's large mammal species. The park forms the headwaters for four major rivers and sustains remnants of the original forest that covered central Ontario. This comprehensive analysis aims to assess and quantify the ecosystem services and carbon sequestration potential of these critical forested areas.
+
+The project combines historical land-use assessment, carbon forest mapping, and infrastructure analysis to develop a robust framework for ecosystem service valuation and carbon credit development. This work is particularly significant given the park's ecological importance and the ongoing challenges it faces, including logging activities and infrastructure development. The analysis utilizes state-of-the-art remote sensing data and spatial analysis techniques to provide accurate and detailed insights into forest dynamics and carbon stocks, supporting conservation efforts and sustainable management of this vital ecosystem.
 
 ### Key Findings to Date
-[In Progress]
+1. **Forest Cover Analysis:**
+   - Total forest area: 635,643 hectares (83.5% of study area)
+   - Stable forest cover maintained from 2000-2020
+   - Disturbed forest areas: 18,651 hectares (2.4%)
+   - Net forest change: +32 hectares (2000-2020)
+
+2. **Deforestation Trends:**
+   - Total forest loss (2001-2023): 23,573 hectares
+   - Average annual loss: 1,025 hectares
+   - Peak loss year: 2020 (1,575 hectares)
+   - Increasing trend in annual forest loss
+
+3. **Forest Dynamics:**
+   - Significant areas of forest regeneration identified
+   - Disturbance patterns mapped and categorized
+   - Clear spatial patterns of forest change established
 
 ### Current Status
-[In Progress]
+The project has successfully completed the Pre-Assessment Package, including:
+- Historical land-use analysis (2000-2023)
+- Forest cover mapping and classification
+- Initial carbon stock assessment
+- Infrastructure analysis framework
+
+The Carbon Forest Maps Package is currently in progress, with:
+- Detailed forest type classification completed
+- Forest dynamics analysis underway
+- Carbon stock modeling in development
 
 ### Next Steps
-[In Progress]
+1. **Complete Carbon Forest Maps Package:**
+   - Finalize forest type classification
+   - Complete carbon stock assessment
+   - Develop carbon sequestration models
+
+2. **Begin Reference Area Analysis:**
+   - Define reference areas
+   - Conduct comparative analysis
+   - Assess leakage risks
+
+3. **Advance Infrastructure Analysis:**
+   - Complete detailed infrastructure mapping
+   - Assess impact on carbon stocks
+   - Develop mitigation strategies
+
+4. **Prepare for Certification:**
+   - Select appropriate certification standard
+   - Develop monitoring framework
+   - Prepare documentation requirements
 
 ## 2. Pre-Assessment Analysis
 ### 2.1 Historical Land-use Assessment
@@ -304,16 +348,16 @@ The analysis utilizes two complementary datasets, each with unique strengths:
    - Gain areas: 2,771 hectares (0.4%)
    - Net change: +32 hectares
 
-![Forest Cover Distribution (2020)](../maps/forest_cover_2020.png)
+![Forest Cover Distribution (2020)](../qgis/outputs/maps/Forest%20Cover%202020%20-%20Algonquin.png)
 **Figure 4:** Forest Cover Distribution (2020) - This map displays the forest cover distribution in 2020, derived from the GLAD dataset. It highlights areas of stable forest cover that persisted from 2000 to 2020, providing a current baseline for carbon stock assessment and conservation planning. The 30-meter resolution enables detailed analysis of forest patterns and supports the identification of priority areas for ecosystem services.
 
-![Forest Loss Patterns (2000-2020)](../maps/forest_loss_2000_2020.png)
+![Forest Loss Patterns (2000-2020)](../qgis/outputs/maps/GLAD%20Forest%20Loss%202001-2020%20-%20Algonquin.png)
 **Figure 5:** Forest Loss Patterns (2000-2020) - This map illustrates forest dynamics from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It shows areas of forest loss, where tree height decreased by ≥50% or where forest cover was completely removed. The 30-meter resolution data enables precise tracking of forest changes, supporting the assessment of carbon stock variations and conservation priorities.
 
-![Forest Regeneration (2000-2020)](../maps/forest_gain_2000_2020.png)
+![Forest Regeneration (2000-2020)](../qgis/outputs/maps/GLAD%20Forest%20Gain%202001-2020%20-%20Algonquin.png)
 **Figure 6:** Forest Regeneration (2000-2020) - This map displays areas of forest gain from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It highlights locations where forest extent increased or where tree height grew by ≥100%, indicating natural regeneration or afforestation. The 30-meter resolution enables detailed monitoring of forest recovery, supporting carbon sequestration potential assessment and restoration planning.
 
-![Forest Disturbance Patterns (2000-2020)](../maps/forest_disturbance_2000_2020.png)
+![Forest Disturbance Patterns (2000-2020)](../qgis/outputs/maps/GLAD%20Disturbed%202001-2020%20-%20Algonquin.png)
 **Figure 7:** Forest Disturbance Patterns (2000-2020) - This map identifies areas of forest degradation and disturbance from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It shows forests that maintained tree height ≥5m but experienced significant disturbance, highlighting areas where forest structure and carbon stocks may be compromised. The 30-meter resolution enables detailed analysis of disturbance patterns, supporting targeted conservation and restoration efforts.
 
 #### Temporal Patterns
