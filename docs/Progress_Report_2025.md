@@ -1,5 +1,4 @@
-# Progress Report 2025
-## Assessing the Potential for Ecosystem Services & Carbon Product Development
+# Progress Report: Assessing the Potential for Ecosystem Services & Carbon Product Development
 
 ### Prepared For:
 **Wildlands League**  
@@ -33,15 +32,16 @@ Germany
 ### Document Information:
 - **Report Type:** Progress Report
 - **Project Period:** 2025
-- **Version:** 1.0
-- **Date:** [Current Date]
+- **Version:** 1.1
+- **Date:** 22.04.2025
 - **Status:** In Progress
 - **Reference Number:** WL-ES-2025-001
 
 ### Document History:
 | Version | Date | Description | Author | Reviewer |
 |---------|------|-------------|---------|-----------|
-| 1.0 | [Current Date] | Initial Draft | Johan Karlsson | Alexander Watson |
+| 1.0 | 15.04.2025 | Initial Draft | Johan Karlsson | Alexander Watson |
+| 1.1 | 22.04.2025 | Added baseline forest cover map, updated infrastructure section, improved figure formatting | Johan Karlsson | Alexander Watson |
 
 ### Distribution List:
 | Name | Organization | Role | Contact |
@@ -73,29 +73,11 @@ Germany
 
 <div style="page-break-after: always;"></div>
 
-<!-- Start of TOC page -->
-<div class="toc-container">
-<div class="toc-section">
-
-# Table of Contents {.toc-header}
+## Table of Contents
 
 1. [Executive Summary](#1-executive-summary)
-   - [Project Overview](#project-overview)
-   - [Key Findings to Date](#key-findings-to-date)
-   - [Current Status](#current-status)
-   - [Next Steps](#next-steps)
-
 2. [Pre-Assessment Analysis](#2-pre-assessment-analysis)
-   - [Historical Land-use Assessment](#21-historical-land-use-assessment)
-   - [Initial Feasibility Assessment](#22-initial-feasibility-assessment)
-
 3. [Carbon Forest Mapping](#3-carbon-forest-mapping)
-   - [Methodology](#31-methodology)
-     - [Data Sources](#data-sources)
-     - [Dataset Comparison](#dataset-comparison)
-     - [Analysis Framework](#analysis-framework)
-   - [Land Cover Classification](#32-land-cover-classification)
-
 4. [Reference Area Analysis](#4-reference-area-analysis)
 5. [Infrastructure Analysis](#5-infrastructure-analysis)
 6. [Carbon Stock Assessment](#6-carbon-stock-assessment)
@@ -105,10 +87,7 @@ Germany
 10. [Monitoring and Reporting](#10-monitoring-and-reporting)
 11. [Risk Management](#11-risk-management)
 12. [Conclusions and Recommendations](#12-conclusions-and-recommendations)
-
-</div>
-</div>
-<!-- End of TOC page -->
+13. [Appendices](#appendices)
 
 <div style="page-break-after: always;"></div>
 
@@ -348,17 +327,35 @@ The analysis utilizes two complementary datasets, each with unique strengths:
    - Gain areas: 2,771 hectares (0.4%)
    - Net change: +32 hectares
 
-![Forest Cover Distribution (2020)](../qgis/outputs/maps/Forest%20Cover%202020%20-%20Algonquin.png)
-**Figure 4:** Forest Cover Distribution (2020) - This map displays the forest cover distribution in 2020, derived from the GLAD dataset. It highlights areas of stable forest cover that persisted from 2000 to 2020, providing a current baseline for carbon stock assessment and conservation planning. The 30-meter resolution enables detailed analysis of forest patterns and supports the identification of priority areas for ecosystem services.
+<div style="page-break-inside: avoid;">
+<img src="../qgis/outputs/maps/Forest%20Cover%202000%20-%20Algonquin.png" width="500" />  
 
-![Forest Loss Patterns (2000-2020)](../qgis/outputs/maps/GLAD%20Forest%20Loss%202001-2020%20-%20Algonquin.png)
-**Figure 5:** Forest Loss Patterns (2000-2020) - This map illustrates forest dynamics from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It shows areas of forest loss, where tree height decreased by ≥50% or where forest cover was completely removed. The 30-meter resolution data enables precise tracking of forest changes, supporting the assessment of carbon stock variations and conservation priorities.
+Figure 4: Forest Cover Distribution (2000) - This map shows the baseline forest cover in 2000, derived from the GLAD dataset. It establishes the initial forest extent and distribution at the start of the monitoring period, serving as the reference point for all subsequent forest change analysis. The 30-meter resolution data provides detailed spatial information essential for understanding historical forest patterns and long-term changes in the landscape.
+</div>
 
-![Forest Regeneration (2000-2020)](../qgis/outputs/maps/GLAD%20Forest%20Gain%202001-2020%20-%20Algonquin.png)
-**Figure 6:** Forest Regeneration (2000-2020) - This map displays areas of forest gain from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It highlights locations where forest extent increased or where tree height grew by ≥100%, indicating natural regeneration or afforestation. The 30-meter resolution enables detailed monitoring of forest recovery, supporting carbon sequestration potential assessment and restoration planning.
+<div style="page-break-inside: avoid;">
+<img src="../qgis/outputs/maps/Forest%20Cover%202020%20-%20Algonquin.png" width="500" />  
 
-![Forest Disturbance Patterns (2000-2020)](../qgis/outputs/maps/GLAD%20Disturbed%202001-2020%20-%20Algonquin.png)
-**Figure 7:** Forest Disturbance Patterns (2000-2020) - This map identifies areas of forest degradation and disturbance from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It shows forests that maintained tree height ≥5m but experienced significant disturbance, highlighting areas where forest structure and carbon stocks may be compromised. The 30-meter resolution enables detailed analysis of disturbance patterns, supporting targeted conservation and restoration efforts.
+Figure 5: Forest Cover Distribution (2020) - This map displays the forest cover distribution in 2020, derived from the GLAD dataset. It highlights areas of stable forest cover that persisted from 2000 to 2020, providing a current baseline for carbon stock assessment and conservation planning. The 30-meter resolution enables detailed analysis of forest patterns and supports the identification of priority areas for ecosystem services.
+</div>
+
+<div style="page-break-inside: avoid;">
+<img src="../qgis/outputs/maps/GLAD%20Forest%20Loss%202001-2020%20-%20Algonquin.png" width="500" />  
+
+Figure 6: Forest Loss Patterns (2000-2020) - This map illustrates forest dynamics from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It shows areas of forest loss, where tree height decreased by ≥50% or where forest cover was completely removed. The 30-meter resolution data enables precise tracking of forest changes, supporting the assessment of carbon stock variations and conservation priorities.
+</div>
+
+<div style="page-break-inside: avoid;">
+<img src="../qgis/outputs/maps/GLAD%20Forest%20Gain%202001-2020%20-%20Algonquin.png" width="500" />  
+
+Figure 7: Forest Regeneration (2000-2020) - This map displays areas of forest gain from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It highlights locations where forest extent increased or where tree height grew by ≥100%, indicating natural regeneration or afforestation. The 30-meter resolution enables detailed monitoring of forest recovery, supporting carbon sequestration potential assessment and restoration planning.
+</div>
+
+<div style="page-break-inside: avoid;">
+<img src="../qgis/outputs/maps/GLAD%20Disturbed%202001-2020%20-%20Algonquin.png" width="500" />  
+
+Figure 8: Forest Disturbance Patterns (2000-2020) - This map identifies areas of forest degradation and disturbance from 2000 to 2020 using the GLAD Global Land Cover and Land Use Change dataset. It shows forests that maintained tree height ≥5m but experienced significant disturbance, highlighting areas where forest structure and carbon stocks may be compromised. The 30-meter resolution enables detailed analysis of disturbance patterns, supporting targeted conservation and restoration efforts.
+</div>
 
 #### Temporal Patterns
 1. **Annual Loss Trends:**
@@ -394,7 +391,6 @@ The analysis utilizes two complementary datasets, each with unique strengths:
 
 ### 5.1 Current Infrastructure
 - Forest Roads: [In Progress]
-- Skid Trails: [In Progress]
 - Buildings and Facilities: [In Progress]
 
 ### 5.2 Planned Infrastructure
@@ -471,7 +467,12 @@ The analysis utilizes two complementary datasets, each with unique strengths:
 
 ## Appendices
 ### A. Detailed Maps
-[To be added as analysis progresses]
+1. Forest Cover Distribution (2000)
+2. Forest Cover Distribution (2020)
+3. Forest Loss Patterns (2000-2020)
+4. Forest Regeneration (2000-2020)
+5. Forest Disturbance Patterns (2000-2020)
+[Additional maps to be added as analysis progresses]
 
 ### B. Technical Analysis Results
 [To be added as analysis progresses]
@@ -480,7 +481,10 @@ The analysis utilizes two complementary datasets, each with unique strengths:
 [To be added as consultations occur]
 
 ### D. Methodology Documentation
-[To be added as methodologies are implemented]
+- GLAD Global Land Cover and Land Use Change dataset (2000-2020)
+- Hansen Global Forest Change v1.11 (2000-2023)
+- Forest definition criteria (Canadian Standard)
+[Additional methodologies to be documented as implemented]
 
 ### E. Raw Data and Analysis Files
 [To be added as data is collected and analyzed]
@@ -494,7 +498,9 @@ This document has been prepared in accordance with OpenForests' Quality Manageme
 
 ### Reference Documents
 1. Project Proposal (Version 1.0: 05.03.2025)
-2. [Other relevant reference documents to be added]
+2. GLAD Dataset Documentation (2000-2020)
+3. Hansen Global Forest Change Documentation v1.11
+[Other relevant reference documents to be added]
 
 ---
 **End of Document**
